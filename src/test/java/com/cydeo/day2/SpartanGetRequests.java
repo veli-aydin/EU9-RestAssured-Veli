@@ -48,6 +48,26 @@ public class SpartanGetRequests {
 
         Assertions.assertTrue(response.body().asString().contains("Fidole"));
 
+    }
+
+    @Test
+    public void test3(){
+
+        Response response = RestAssured.when().get(baseUrl + "/api/hello");
+
+        Assertions.assertEquals(200,response.statusCode());
+
+        Assertions.assertEquals("text/plain;charset=UTF-8",response.contentType());
+
+        Assertions.assertTrue(response.headers().hasHeaderWithName("Date"));
+
+        System.out.println("response.header(\"Content-Length\") = " + response.header("Content-Length"));
+
+        System.out.println(response.header("Date"));
+
+        Assertions.assertEquals("17",response.header("Content-Length"));
+
+        Assertions.assertEquals("Hello from Sparta",response.body().asString());
 
     }
 

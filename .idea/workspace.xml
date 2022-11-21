@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc9ca35-24dc-486e-a336-bf1d75dcf908" name="Changes" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day2/SpartanGetRequests.java" afterDir="false" />
+    <list default="true" id="3cc9ca35-24dc-486e-a336-bf1d75dcf908" name="Changes" comment="third commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SpartanGetRequests.test2">
+  <component name="RunManager" selected="JUnit.SpartanGetRequests.test3">
     <configuration name="SimpleGetRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU9-RestAssured-Veli" />
       <extension name="coverage">
@@ -57,22 +56,6 @@
       <option name="PACKAGE_NAME" value="com.cydeo.day1" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.day1.SimpleGetRequest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleGetRequest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU9-RestAssured-Veli" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day1" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day1.SimpleGetRequest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,13 +107,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpartanGetRequests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9-RestAssured-Veli" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day2.SpartanGetRequests" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanGetRequests.test3" />
         <item itemvalue="JUnit.SpartanGetRequests.test2" />
         <item itemvalue="JUnit.SpartanGetRequests.test1" />
         <item itemvalue="JUnit.SimpleGetRequest" />
         <item itemvalue="JUnit.SpartanGetRequests" />
-        <item itemvalue="JUnit.SimpleGetRequest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +144,7 @@
       <workItem from="1668800441326" duration="820000" />
       <workItem from="1668806010740" duration="1624000" />
       <workItem from="1668977991826" duration="2382000" />
-      <workItem from="1669011694672" duration="963000" />
+      <workItem from="1669011694672" duration="1687000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1668807863730</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668807863730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="third commit">
+      <created>1669012820661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669012820661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
 </project>
